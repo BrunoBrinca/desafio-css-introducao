@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root{
+    --color-red:#F03C42;
+    --color-blue:#222374;
+    --text-black:#000000;
+    --text-white:#FFFFFF;
+    --color-light-gray:#CCCCCC;
+}
+
+.container{
+    box-sizing: flex;
+}
+
+ header {
+    background-color: var(--color-red);
+}
