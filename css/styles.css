@@ -15,6 +15,11 @@
     padding: 0;
 }
 
+a, a:hover{
+    color: unset;
+    text-decoration: none;
+}
+
 .container{
     width: 100%;
     max-width: 960px;
@@ -28,14 +33,29 @@
     align-items: center;
 }
 
+header h1{
+font-size: 18px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
     color: var(--text-white);
 }
 
-nav img{
+
+nav a{
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.instagram-link{
     display: flex;
+    align-items: center;
+}
+
+.instagram-link img{
+vertical-align: middle;
 }
 
 #our-space {
@@ -45,6 +65,7 @@ nav img{
 
 #our-space h2{
     color: var(--text-white);
+font-size: 32px;
 }
 
 .card-our-space{
@@ -55,7 +76,60 @@ nav img{
 
 .card-our-space h3{
 padding: 20px 0 0 20px;
+font-size: 20px;
 }
 .card-our-space-content {
 padding: 20px;
+font-size: 14px;
+}
+
+#modalities h2{
+    color: var(--color-red);
+    font-size: 32px;
+    margin: 20px 0px;
+}
+
+.card-modalities{
+    background-color: var(--color-blue);
+    border-radius: 8px;
+    margin: 20px 0px;
+}
+
+.card-modalities h3{
+   color: var(--text-white);
+   padding: 20px 0px 0px 20px;
+   font-size: 20px;
+}
+
+.card-modalities p{
+    color: var(--color-light-gray);
+    padding: 20px;
+    font-size: 14px;
+}
+
+footer {
+min-height: 262px;
+background-color: var(--text-black);
+color: var(--text-white);
+padding: 60px;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links-footer{
+    display: flex;
+    align-items: center;
+    margin: 0 0 10px 0;
+    font-size: 14px;
+}
+
+.text-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
 }
